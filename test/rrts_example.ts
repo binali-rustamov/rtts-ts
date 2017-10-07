@@ -1,7 +1,4 @@
-import '../rtts';
-import type = Rtts.type;
-import tnumber = Rtts.tnumber;
-import cast = Rtts.cast;
+import {cast, tnumber, type} from '../rtts';
 
 export class RttsExample {
     @type

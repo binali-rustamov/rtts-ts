@@ -1,6 +1,6 @@
 import {expect} from 'chai';
 import {RttsExample} from "./rrts_example";
-import CastError = Rtts.CastError;
+import {CastError} from "../rtts";
 
 describe('RTTS Tets', () => {
     it(`tnumber decorator testing`, (done) => {
